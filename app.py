@@ -4,8 +4,11 @@ import pickle
 # -----------------------------
 # Load the saved model
 # -----------------------------
-with open("F:\\Github_Desktop\\Final-NLP-Project\\model.pkl", "rb") as file:
+with open("modelss/model.pkl", "rb") as file:
     tfidf, model = pickle.load(file)
+
+
+
 
 
 # -----------------------------
