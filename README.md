@@ -1,4 +1,5 @@
 🚀 Multi-Text Classification NLP Project
+
 🔗 Live Demo:
 
 👉 https://final-nlp-project-edt9ewf8gqt6rxy7pddjo2.streamlit.app/
@@ -28,9 +29,6 @@ Multi-Text Classification NLP Project
 
 This project is a simple NLP-based text classification system built using TF-IDF Vectorization, Linear Support Vector Machine (SVM), and Streamlit.
 It allows users to enter multiple sentences, and the model will classify each sentence into categories such as Sports, Tech, Politics, Medical, Vehicles, Education, Entertainment, and Finance.
-
-A live version of the project is available here:
-https://final-nlp-project-edt9ewf8gqt6rxy7pddjo2.streamlit.app/
 
 Overview
 
