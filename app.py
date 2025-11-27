@@ -7,6 +7,7 @@ import pickle
 with open("F:\\Github_Desktop\\Final-NLP-Project\\model.pkl", "rb") as file:
     tfidf, model = pickle.load(file)
 
+
 # -----------------------------
 # Page configuration
 # -----------------------------
