@@ -4,7 +4,7 @@ import pickle
 # -----------------------------
 # Load the saved model
 # -----------------------------
-with open("F:\\Github_Desktop\\NLP-Netural-Language-Process\\Final Exam\\model.pkl", "rb") as file:
+with open("F:\\Github_Desktop\\Final-NLP-Project\\model.pkl", "rb") as file:
     tfidf, model = pickle.load(file)
 
 # -----------------------------
