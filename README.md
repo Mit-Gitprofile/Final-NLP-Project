@@ -25,63 +25,73 @@ It classifies multiple sentences at once into categories such as:
 
 The app is designed to be simple, interactive, user-friendly, and beginner-friendly.
 ------------------------------------------------------------------------------------
-Multi-Text Classification NLP Project
+🤖 Multi-Text Classification NLP Project
 
-This project is a simple NLP-based text classification system built using TF-IDF Vectorization, Linear Support Vector Machine (SVM), and Streamlit.
-It allows users to enter multiple sentences, and the model will classify each sentence into categories such as Sports, Tech, Politics, Medical, Vehicles, Education, Entertainment, and Finance.
+This project is a simple and interactive NLP-based text classification system built using
+TF-IDF Vectorization, Linear SVM, and Streamlit.
 
-Overview
+It allows users to enter multiple sentences, and the model will classify each sentence into categories such as:
+Sports, Tech, Politics, Medical, Vehicles, Education, Entertainment, and Finance.
 
-The goal of this project is to demonstrate how to build a basic text classification app using machine learning and deploy it on Streamlit Cloud.
-Users can input several sentences (one per line), and the app will return the predicted category for each sentence.
+📘 Overview
 
-Features
+The goal of this project is to demonstrate how to build a basic multi-class text classification app using machine learning and deploy it on Streamlit Cloud.
 
-Multi-class text classification
+Users can enter multiple lines of text, and the app will instantly display the predicted category for each sentence.
 
-Allows multiple sentences at once
+⭐ Features
 
-Pre-trained model loaded from a pickle file
+🔠 Multi-class text classification
 
-Clean and simple Streamlit user interface
+📝 Accepts multiple sentences at once
 
-Clear button to reset input
+📦 Pre-trained model loaded from a model.pkl file
 
-Examples of sentences provided in the app
+🎨 Clean and simple Streamlit interface
 
-Works directly in the browser through Streamlit Cloud
+🧹 Clear button to reset input
 
-How It Works
+💡 Example sentences provided
 
-Text Vectorization
-The project uses TF-IDF (Term Frequency–Inverse Document Frequency) to convert words into numerical vectors.
+🌐 Works directly in the browser via Streamlit Cloud
 
-Model Training
+⚙️ How It Works
+🧩 1. Text Vectorization
+
+Uses TF-IDF (Term Frequency–Inverse Document Frequency) to convert text into numerical vectors.
+
+🧠 2. Model Training
+
 The classifier used is LinearSVC (Support Vector Machine).
-It is trained on a small set of predefined text samples grouped into categories.
+It is trained on predefined text samples for each category.
 
-Model Saving
-The trained TF-IDF vectorizer and classifier are saved together in model.pkl using Python's pickle library.
+💾 3. Model Saving
 
-Prediction in Streamlit
-The user enters sentences, the app transforms them using the saved TF-IDF vectorizer, and the model predicts the category.
+Both the TF-IDF vectorizer and the trained model are saved into a single file:
+model.pkl using the pickle library.
 
-Each category has example sentences used during training.
+🔍 4. Prediction in Streamlit
 
-Example Sentences Used
+User enters sentences
 
-Sports: "Virat Kohli hits a century"
+Text is transformed using the saved TF-IDF vectorizer
 
-Tech: "Google launches a new AI tool"
+Model predicts the corresponding category
 
-Politics: "Prime Minister announces a new law"
+🧪 Example Sentences Used in Training
 
-Medical: "Doctor advises regular health checkup"
+⚽ Sports: "Virat Kohli hits a century"
 
-Vehicles: "Tesla releases its latest electric car"
+💻 Tech: "Google launches a new AI tool"
 
-Education: "New education policy introduced"
+🏛️ Politics: "Prime Minister announces a new law"
 
-Entertainment: "The movie became a box office hit"
+🩺 Medical: "Doctor advises regular health checkup"
 
-Finance: "Stock market reaches an all-time high"
+🚗 Vehicles: "Tesla releases its latest electric car"
+
+🎓 Education: "New education policy introduced"
+
+🎬 Entertainment: "The movie became a box office hit"
+
+💰 Finance: "Stock market reaches an all-time high"
